@@ -1,0 +1,24 @@
+.Product-container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.Product-img{
+    width: 100%;
+}
+.Product-img img{
+    width: 100%;
+}
+
+.Product-Content{
+    margin-top: 10%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Product-Content h2{
+  margin-bottom: 30px;
+}

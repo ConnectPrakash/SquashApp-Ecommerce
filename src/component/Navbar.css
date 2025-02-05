@@ -1,0 +1,79 @@
+.navbar{
+    background-color: rgba(50, 18, 231, 0.959);
+    height:auto;
+    color:white !important;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+.navbar-brand{
+    margin-left: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    color:white !important;
+}
+.form-control1{
+     width: 20rem;
+     height: 3rem;
+     color:rgb(28, 14, 224) !important;
+}
+.nav-btn{
+   margin-top: 0px !important;
+  height: 100%;
+  margin-right: 20px;
+   background-color: white;
+   color:blue !important;
+   border:none;
+   font-weight: 600;
+}
+.log{
+    box-shadow: 0px 0px 10px black;
+}
+.nav-btn:hover{
+    background-color: rgb(121, 121, 214);
+    color:white !important;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color:blue !important;
+}
+.navbar-nav{
+    width: 30% !important;
+    margin-left:auto !important;
+}
+.navbar-nav .nav-item{
+    margin-right: 20px;
+    color: white !important;
+}
+.navbar-nav .nav-item a{
+    color:white !important;
+}
+.form-input{
+
+
+}
+.input-item{
+    position: absolute;
+    width: 20rem;
+    min-height: 200px;
+    background-color: white;
+    color:black;
+    margin-top: 10px;
+}
+.input-item ul{
+    color:black !important;
+    padding-left: 0px !important;
+}
+.input-li{
+    color:black !important;
+    padding:20px;
+    list-style: none;
+}
+.input-li:hover{
+    background-color: rgba(0, 0, 0, 0.402);
+    cursor: pointer;
+}

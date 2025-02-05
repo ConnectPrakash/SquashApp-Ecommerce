@@ -1,0 +1,64 @@
+.container {
+    margin-top: 20px;
+}
+
+.container .row{
+    justify-content: space-around;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+
+.Home-cont {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px; /* Fixed height for consistent card size */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    background-color: white;
+}
+
+.Home-cont:hover {
+    transform: translateY(-5px); /* Slight hover effect */
+}
+
+.Home-img {
+    width: 100%; /* Ensure image fills the width */
+    height: 400px; /* Fixed height for uniformity */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.Home-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain; /* Ensures image scales uniformly */
+}
+
+.Home-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Home-desc {
+    font-size: 0.9rem;
+    margin: 10px 0;
+    color: #555;
+    text-align: center;
+    flex-grow: 1; /* Ensures description takes up available space */
+}
+
+button {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px; /* Add space above the button */
+}
