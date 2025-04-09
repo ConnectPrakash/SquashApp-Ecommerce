@@ -10,9 +10,7 @@ function Signup() {
   const [email,setEmail] = useState();
   const [password,setPassword] = useState();
   const [phone, setPhone] = useState();
-  function handleProperty(value){
-    
-  }
+ 
   function handleChange(value) {
     setPhone(value);
   }
